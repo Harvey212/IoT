@@ -584,7 +584,7 @@ class project:
         #print(self.pca.n_components_)
 
     def LineNotify(self,timetag):
-        token='PMvoj13zkB4bCy785uvdaf2vU4swzrXVgy3yLEyD0tJ'
+        token='xxxPut Your Line Token'
         message = 'You have Hypopnea at {t} seconds from the start.'.format(t=timetag)
 
         headers = { "Authorization": "Bearer " + token }
